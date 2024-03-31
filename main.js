@@ -1,6 +1,2 @@
-let button= document.querySelector('button');
-button.addEventListener('click',message);
-
-function message(){
-    alert("Hello!");
-}
+const message = "Hello!";
+console.log(message);
