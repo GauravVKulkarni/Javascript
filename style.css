@@ -1,0 +1,11 @@
+button {
+    font-family: 'helvetica neue', helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgb(35,60,255);
+    background: rgb(70,180,255);
+    color: rgb(35,60,255);
+    padding: 3px 10px;
+    display: block;
+}
