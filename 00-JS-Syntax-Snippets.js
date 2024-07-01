@@ -39,6 +39,7 @@ comment.
 //Chapter 2: Variables & Constants
 {
     //Variables
+
     //Declaration
         let a;
         let b;
@@ -73,6 +74,9 @@ comment.
 
     //Displaying variables in tabular format
         console.table([a, b, c, myName, string, numString, isOnline, str, num]);
+
+    //Use const whenever you can. more variables means more trouble 
+    //var isn't used anymore because of block scope issues and bug-proneness due to unpredictability. let is mostly used instead
 }
 //Chapter 3: Arithmetic Operations
 {
@@ -157,5 +161,8 @@ comment.
     //Changing type of varible
         a  = String(a);
         num = Number(numString);
+
+    //null is not a primitive data type, it is an object
+    //undefined is of data type undefined
         
 }
