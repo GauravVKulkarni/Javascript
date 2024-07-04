@@ -8,3 +8,7 @@ typeOfStr1 = typeof str1
 typeOfStr2 = typeof str2
 
 console.log(`${typeOfStr1} and ${typeOfStr2}`)
+
+let slicedString = str1.slice(0,2)
+
+console.log(slicedString)
