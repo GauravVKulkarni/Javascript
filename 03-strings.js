@@ -12,3 +12,4 @@ console.log(`${typeOfStr1} and ${typeOfStr2}`)
 let slicedString = str1.slice(0,2)
 
 console.log(slicedString)
+console.log(str1.length)
