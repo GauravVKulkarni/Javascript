@@ -166,3 +166,39 @@ comment.
     //undefined is of data type undefined
         
 }
+//Chapter 6: Strings
+{
+
+    //Concatenation
+        let name = `Gaurav`;
+        let greeting = `Hello ${name}`;
+        console.log(greeting);
+
+    //String length
+        console.log(greeting.length);
+
+    //String methods
+        console.log(greeting.toUpperCase());
+        console.log(greeting.toLowerCase());
+        console.log(greeting.indexOf(`Gaurav`));
+        console.log(greeting.split(` `));
+
+    //String templates
+        console.log(`The greeting is ${greeting}`);
+
+    //String slicing
+        console.log(greeting.slice(0,5));
+
+    //String search
+        console.log(greeting.search(`Gaurav`));
+
+    //String replace
+        console.log(greeting.replace(`Hello`, `Hi`));
+
+    //String trim
+        console.log(`  Gaurav  `.trim());
+
+    //String interpolation
+        let name2 = `Gaurav`;
+        console.log(`Hello ${name2}`);
+}
