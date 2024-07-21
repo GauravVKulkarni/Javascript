@@ -23,3 +23,23 @@ console.log(arr.reverse());
 console.log(arr.includes(7));
 console.log(!arr.includes(7));
 console.log(arr.indexOf(7));
+
+const arr4 = arr.join()
+console.log(arr4)
+console.log(typeof arr4);
+console.log(arr4.split(','))
+console.log(typeof arr4.split(','));
+
+const arrarray = [1, 2, 3, [4, 5, 6]]
+console.log(arrarray[3][1]);
+
+console.log(arrarray.flat());
+
+console.log(Array.isArray(`Gaurav`))
+console.log(Array.from(`Gaurav`))
+
+const a1 = 100, a2 = 200, a3 = 300
+
+console.log(Array.of(a1,a2,a3))
+
+console.log([a1,a2,a3].toString())
