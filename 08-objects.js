@@ -32,4 +32,5 @@ Object.freeze(obj2) //totally uneditable
 
 const objcopy = Object.assign({},obj2)
 console.log(objcopy);
-console.log(obj);
+
+console.log(Object.keys(obj));
